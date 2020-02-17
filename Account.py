@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 #Create a Bank Account class
 
@@ -12,9 +12,10 @@
 #Try to prevent illegal actions on the accounts
 
 #github.com/sadfjkhsdafk/sadkygsfdak
-print("Hello World")
+print("Real version")
 
-# In[ ]:
+
+# In[3]:
 
 #Update: The below is unfinished, and ignore pin-related stuff
 
@@ -23,7 +24,7 @@ print("Hello World")
 #in different currencies or securities
 
 
-# In[40]:
+# In[4]:
 
 import random
 import hashlib
@@ -61,7 +62,7 @@ class BankAccount:
         self.__balance+=amt
 
 
-# In[41]:
+# In[5]:
 
 a=BankAccount('Paul','1sdfhnjdgj,ketdyshjsrfx234')
 a.deposit(100)
@@ -72,14 +73,14 @@ except ValueError as v:
     print (a._BankAccount__pin)
 
 
-# In[27]:
+# In[6]:
 
 BankAccount.Accounts.keys()
 for k,v in BankAccount.Accounts.items():
     print(' %i: %s : %i'%(k,v.getDetails(), v._BankAccount__balance))
 
 
-# In[26]:
+# In[7]:
 
 BankAccount.Accounts[11566923].transfer(-1000,BankAccount.Accounts[47553964])
 
@@ -89,7 +90,7 @@ BankAccount.Accounts[11566923].transfer(-1000,BankAccount.Accounts[47553964])
 
 
 
-# In[28]:
+# In[8]:
 
 menu=input('''What operation would you like to perform:
 Deposit, Withdraw, Transfer, Check Balance''')
@@ -108,7 +109,7 @@ if menu=='Transfer':
 
 
 
-# In[16]:
+# In[9]:
 
 flag=True
 while flag:
@@ -122,14 +123,14 @@ while flag:
     
 
 
-# In[18]:
+# In[10]:
 
 BankAccount.Accounts.keys()
 
 
-# In[19]:
+# In[12]:
 
-BankAccount.Accounts[12631226].getDetails()
+BankAccount.Accounts[82846061].getDetails()
 
 
 # In[ ]:
